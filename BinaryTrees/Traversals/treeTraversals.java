@@ -26,7 +26,7 @@ public class treeTraversals {
 //take the data from them all and create nodes
 //so lets create index variable
 static class BinaryTree{
-    static int idx = -1; // static because for every recursion we want index to update fpr every node and update
+    static int idx = -1; // static - dont need to create new object. because for every recursion we want index to update fpr every node and update
 public static Node buildTree(int nodes[]) {
     idx++; //to update for all nodes, beginning it is -1, but after first call it becomes 0
     //check nodes of indx are -1, if yes return null. we dont need to create child nodes left and right so return null

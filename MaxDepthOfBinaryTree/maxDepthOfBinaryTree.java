@@ -1,0 +1,1 @@
+//max depth of tree is height of tree. root node to leaf. can be calculated in terms of number of nodes or edges connecting nodes
