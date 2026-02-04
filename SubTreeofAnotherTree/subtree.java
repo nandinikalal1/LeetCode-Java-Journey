@@ -58,10 +58,6 @@ public class subtree {
                     && isSameTree(a.right, b.right);
         }
     
-
-    // -------------------------------
-    // Test / main method
-    // -------------------------------
     public static void main(String[] args) {
 
         /*
